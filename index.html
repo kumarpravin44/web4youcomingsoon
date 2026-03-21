@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web4You - Coming Soon</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Boxicons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="fav.png">
+
+<style>
+
+</style>
+</head>
+
+<body>
+<!-- 🔥 Background Video -->
+<div class="video-bg">
+    <img src="cominf.jpg">
+</div>
+<div class="container">
+    
+    <div class="logo">
+        <img src="logo.png" alt="Web4You Logo">
+    </div>
+
+    <h1>Coming Soon</h1>
+    
+    <p>Websites | Apps | Marketing | Complete Digital Solutions</p>
+
+    <!-- Countdown -->
+    <div class="countdown">
+        <div class="box"><h2 id="days">00</h2><span>Days</span></div>
+        <div class="box"><h2 id="hours">00</h2><span>Hours</span></div>
+        <div class="box"><h2 id="minutes">00</h2><span>Minutes</span></div>
+        <div class="box"><h2 id="seconds">00</h2><span>Seconds</span></div>
+    </div>
+
+    <a   target="_blank" class="btn">
+        Follow Us
+    </a>
+
+    <!-- 🔥 Social Icons -->
+    <div class="social">
+        <a href="https://www.facebook.com/web4younoida/" target="_blank">
+            <i class='bx bxl-facebook'></i>
+        </a>
+        <a href="https://www.linkedin.com/company/web4you-noida/" target="_blank">
+            <i class='bx bxl-linkedin'></i>
+        </a>
+    </div>
+
+    <div class="footer">
+        📞 <a href="tel:8090212521"> +91 80902 12521 </a> | <a href="tel:+919971411966"> +91 9971411966 </a> <br>
+        © 2026 Web4You. All Rights Reserved.
+    </div>
+
+</div>
+
+<script>
+const launchDate = new Date("April 30, 2026 00:00:00").getTime();
+
+const timer = setInterval(function(){
+    const now = new Date().getTime();
+    const distance = launchDate - now;
+
+    document.getElementById("days").innerHTML = Math.floor(distance / (1000*60*60*24));
+    document.getElementById("hours").innerHTML = Math.floor((distance % (1000*60*60*24)) / (1000*60*60));
+    document.getElementById("minutes").innerHTML = Math.floor((distance % (1000*60*60)) / (1000*60));
+    document.getElementById("seconds").innerHTML = Math.floor((distance % (1000*60)) / 1000);
+
+    if(distance < 0){
+        clearInterval(timer);
+        document.querySelector(".countdown").innerHTML = "🚀 We Are Live!";
+    }
+}, 1000);
+</script>
+
+</body>
+</html>
