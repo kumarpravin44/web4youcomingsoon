@@ -18,16 +18,26 @@ function App() {
             <img src={logo} alt="Web4You Logo" />
             <img src={hiddenLogo} style={{display: 'none'}} alt="Web4You Logo" />
           </div>
-          <p className="tagline">Websites | Apps | Marketing | Complete Digital Solutions</p>
+          {/* <p className="tagline">Websites | Apps | Marketing | Complete Digital Solutions</p> */}
           
           <div className="description">
-            <p>Transform your business with cutting-edge digital solutions. We specialize in creating stunning websites, powerful mobile apps, and strategic digital marketing campaigns tailored to your unique needs.</p>
+            <p>10+ years of freelance experience in digital marketing & development
+Helping small businesses grow with affordable & result-driven solutions</p>
+<p>Expertise in AI-powered marketing & automation systems
+Build SaaS software, websites, and mobile apps
+Create high-converting landing pages & sales funnels
+Focus on real leads & paying customers (not just traffic)
+Provide SEO, social media marketing & paid ads services
+100% customized solutions for startups & low-budget businesses
+Use AI + smart funnels to generate leads on autopilot</p>
+<p>🎯 Goal: More Leads • More Clients • More Revenue</p>
+<p>📞 Book Free Consultation | Get Your First Leads in 7 Days 🚀</p>
             
           </div>
           
-          <a href="#" target="_blank" className="btn">
+          <h2  className="tagline">
             Follow Us
-          </a>
+          </h2>
 
           {/* 🔥 Social Icons */}
           <div className="social">

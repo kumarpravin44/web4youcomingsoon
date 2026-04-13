@@ -98,8 +98,8 @@ body{
 }
 
 .description{
-    max-width:450px;
-    margin:0 auto 35px;
+    
+    margin:0 auto 15px;
     animation: fadeIn 1s ease-out 1s both;
 }
 
