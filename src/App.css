@@ -13,12 +13,13 @@ body{
     background: #003b74;
     color:#fff;
     text-align:center;
-    padding:20px;
+    padding:0;
 }
 
 .container{
     width:100%;
     max-width:700px;
+    padding:20px;
 }
 
 .logo{
@@ -171,3 +172,110 @@ body{
     max-width: 230px;
 }
 }
+
+.lead-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.lead-form {
+    width: 100%;
+    max-width: 760px;
+    padding: 32px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
+    border-radius: 28px;
+    backdrop-filter: blur(18px);
+    box-shadow: 0 30px 70px rgba(0,0,0,0.18);
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.lead-form-header {
+    margin-bottom: 24px;
+}
+
+.lead-form h2 {
+    font-size: clamp(24px, 4vw, 32px);
+    margin-bottom: 10px;
+}
+
+.lead-form p {
+    margin: 0;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+}
+
+.lead-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.lead-form input,
+.lead-form select {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.18);
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+    font-size: 0.98rem;
+    outline: none;
+}
+
+.lead-form input::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+.lead-form select {
+    appearance: none;
+}
+
+.lead-form select option {
+    color: #111;
+    background: #fff;
+}
+
+.lead-form .full-width {
+    grid-column: 1 / -1;
+}
+
+.lead-success-page {
+    margin-bottom: 25px;
+}
+
+.lead-submit {
+    width: 100%;
+    padding: 15px 18px;
+    border-radius: 20px;
+    border: none;
+    background: #fb6608;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.25s ease;
+}
+
+.lead-submit:hover {
+    background: #ff7d2f;
+}
+
+@media (max-width: 720px) {
+    .lead-form {
+        padding: 24px;
+    }
+
+    .lead-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .lead-form h2 {
+        font-size: 26px;
+    }
+}
+
