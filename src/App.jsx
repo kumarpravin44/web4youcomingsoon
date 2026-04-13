@@ -51,6 +51,7 @@ Use AI + smart funnels to generate leads on autopilot</p>
               <i className='bx bxl-instagram'></i>
             </a>
           </div>
+          
         </div>
 
         {/* Right Side - Form */}
