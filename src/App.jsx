@@ -1,5 +1,6 @@
-import cominf from './assets/cominf.jpg';
+import cominf from './assets/hero-bg.jpeg';
 import logo from './assets/logo.png';
+import hiddenLogo from './assets/facbook-logo.png';
 import LeadForm from './LeadForm';
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
       <div className="container">
         <div className="logo">
           <img src={logo} alt="Web4You Logo" />
+          <img src={hiddenLogo} style={{display: 'none'}} alt="Web4You Logo" />
         </div>
 
         <p>Websites | Apps | Marketing | Complete Digital Solutions</p>
