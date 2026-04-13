@@ -85,8 +85,8 @@ body{
 }
 
 .logo{
-    max-width:250px;
-    margin-bottom:30px;
+    max-width:210px;
+    margin-bottom:20px;
     animation: fadeIn 1s ease-out 0.8s both;
 }
 
