@@ -1,5 +1,5 @@
 import cominf from './assets/cominf.jpg';
-import logo from './assets/logo.png';
+import logo from './assets/facbook-logo.png';
 import LeadForm from './LeadForm';
 import './App.css';
 
