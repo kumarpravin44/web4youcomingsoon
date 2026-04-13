@@ -50,6 +50,19 @@ body{
     opacity:0.9;
 }
 
+.description{
+    max-width:450px;
+    margin:0 auto 35px;
+}
+
+.description p{
+    font-size:clamp(14px, 1.5vw, 16px);
+    line-height:1.8;
+    margin-bottom:15px;
+    opacity:0.85;
+    text-align:center;
+}
+
 h1{
     font-size:clamp(28px, 6vw, 42px);
     margin-bottom:10px;

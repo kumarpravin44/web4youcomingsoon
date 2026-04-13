@@ -20,6 +20,11 @@ function App() {
           </div>
           <p className="tagline">Websites | Apps | Marketing | Complete Digital Solutions</p>
           
+          <div className="description">
+            <p>Transform your business with cutting-edge digital solutions. We specialize in creating stunning websites, powerful mobile apps, and strategic digital marketing campaigns tailored to your unique needs.</p>
+            <p>Whether you're a startup or an established business, our expert team is ready to elevate your digital presence and drive real results.</p>
+          </div>
+          
           <a href="#" target="_blank" className="btn">
             Follow Us
           </a>
