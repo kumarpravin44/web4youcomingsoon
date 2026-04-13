@@ -197,6 +197,11 @@ body{
     margin-bottom: 24px;
 }
 
+.lead-success-logo {
+    width: 140px;
+    margin-bottom: 24px;
+}
+
 .lead-form h2 {
     font-size: clamp(24px, 4vw, 32px);
     margin-bottom: 10px;

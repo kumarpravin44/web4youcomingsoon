@@ -73,6 +73,7 @@ export default function LeadForm() {
     return (
       <section className="lead-section">
         <div className="lead-success-page">
+          
           <h2>Thank you! Your inquiry has been sent.</h2>
           <p>
             We received your request and our team will contact you shortly. If you need to submit another inquiry, click the button below.
