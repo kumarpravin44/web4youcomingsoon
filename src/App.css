@@ -92,7 +92,7 @@ body{
 
 .tagline{
     font-size:clamp(16px, 2vw, 18px);
-    margin-bottom:30px;
+    margin-bottom:20px;
     opacity:0.9;
     animation: pulse 2s infinite;
 }
