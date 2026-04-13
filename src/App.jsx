@@ -47,7 +47,7 @@ Use AI + smart funnels to generate leads on autopilot</p>
             <a href="https://www.linkedin.com/company/web4you-noida/" target="_blank">
               <i className='bx bxl-linkedin'></i>
             </a>
-            <a href="https://www.instagram.com/web4younoida/" target="_blank">
+            <a href="https://www.instagram.com/web4you_1000m/" target="_blank">
               <i className='bx bxl-instagram'></i>
             </a>
           </div>
