@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Rocket">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="0.55" stop-color="#d9e7f3"/>
+      <stop offset="1" stop-color="#b8cde0"/>
+    </linearGradient>
+    <linearGradient id="noseGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffb057"/>
+      <stop offset="1" stop-color="#ff6b2b"/>
+    </linearGradient>
+    <linearGradient id="finGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2f80c2"/>
+      <stop offset="1" stop-color="#1f4f84"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(110 110) rotate(-45) translate(-110 -110)">
+    <ellipse cx="110" cy="188" rx="24" ry="12" fill="#6e86a133"/>
+
+    <path d="M110 18 C143 38, 156 88, 110 176 C64 88, 77 38, 110 18 Z" fill="url(#bodyGrad)" stroke="#8fa6bb" stroke-width="3"/>
+
+    <path d="M110 18 C124 26, 129 41, 110 56 C91 41, 96 26, 110 18 Z" fill="url(#noseGrad)"/>
+
+    <ellipse cx="110" cy="84" rx="19" ry="19" fill="#2a5d90"/>
+    <ellipse cx="110" cy="84" rx="11" ry="11" fill="#b8e6ff"/>
+
+    <path d="M92 134 L62 154 L86 102 Z" fill="url(#finGrad)"/>
+    <path d="M128 134 L158 154 L134 102 Z" fill="url(#finGrad)"/>
+
+    <path d="M103 168 L117 168 L113 194 L107 194 Z" fill="#33475c"/>
+  </g>
+</svg>

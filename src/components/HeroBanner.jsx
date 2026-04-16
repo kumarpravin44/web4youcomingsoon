@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import hiddenLogo from '../assets/facbook-logo.png';
+import rocketImage from '../assets/rocket-launch.svg';
 import LeadForm from '../LeadForm';
 
 function HeroBanner() {
@@ -44,7 +45,7 @@ function HeroBanner() {
       </div>
 
       <div className="hero-rocket" aria-hidden="true">
-        <i className='bx bxs-rocket'></i>
+        <img src={rocketImage} alt="" />
       </div>
 
       <div className="hero-stars" aria-hidden="true">
