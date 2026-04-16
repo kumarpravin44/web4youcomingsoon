@@ -93,9 +93,16 @@ export default function LeadForm() {
   return (
     <section className="lead-section">
       <form onSubmit={handleSubmit} className="lead-form">
+        <div className="lead-form-badge">
+          <span className="badge-icon">🔥</span>
+          <span className="badge-text">Limited Time Offer!</span>
+          <span className="badge-timer">
+            <i className='bx bx-time-five'></i> Ends Soon
+          </span>
+        </div>
         <div className="lead-form-header">
-          <h2>Get More Leads with AI 🚀</h2>
-          <p>Fill the form and get a free AI marketing demo for your business</p>
+          <h2>Get More Leads with AI</h2>
+          <p>Fill the form and get a <strong>FREE</strong> AI marketing demo for your business</p>
         </div>
 
         <div className="lead-form-grid">
@@ -122,14 +129,42 @@ export default function LeadForm() {
             required
           >
             <option value="">Select Business Type</option>
-            <option>Gym</option>
-            <option>Salon</option>
             <option>Coaching Institute</option>
-            <option>Real Estate</option>
+            <option>Schools & Colleges</option>
+            <option>Hospitals & Clinics</option>
+            <option>Diagnostic Labs</option>
+            <option>Salon & Beauty Parlour</option>
+            <option>Spa & Wellness Center</option>
+            <option>Gym & Fitness Center</option>
+            <option>Yoga Studio</option>
+            <option>Restaurants</option>
+            <option>Bars & Pubs</option>
+            <option>Cafes & Coffee Shops</option>
+            <option>Hotels & Resorts</option>
+            <option>Travel Agency</option>
+            <option>Real Estate / Property Dealer</option>
+            <option>Car Repair / Garage</option>
+            <option>Car Wash / Detailing</option>
+            <option>Automobile Showroom</option>
+            <option>Electronics Store</option>
+            <option>Clothing / Fashion Store</option>
+            <option>Grocery Store / Supermarket</option>
             <option>E-commerce Store</option>
-            <option>Mobile App</option>
-            <option>Software / SaaS</option>
-            <option>Website / Service Business</option>
+            <option>Mobile Shop</option>
+            <option>IT Company / Software & SaaS</option>
+            <option>Mobile App Business</option>
+            <option>Website / Service-Based Business</option>
+            <option>Digital Marketing Agency</option>
+            <option>Freelancers / Consultants</option>
+            <option>Event Management</option>
+            <option>Photography / Videography</option>
+            <option>Interior Designer</option>
+            <option>Construction / Builder</option>
+            <option>Home Services (Plumber, Electrician, etc.)</option>
+            <option>Legal Services (Lawyer, CA)</option>
+            <option>Financial Services (Loan, Insurance, etc.)</option>
+            <option>NGO / Organization</option>
+            <option>Others</option>
           </select>
           <input
             type="text"
@@ -175,8 +210,16 @@ export default function LeadForm() {
         </div>
 
         <button type="submit" className="lead-submit">
-          Get Free Demo
+          <i className='bx bx-rocket'></i>
+          <span>Claim Your Free Demo Now</span>
+          <i className='bx bx-right-arrow-alt'></i>
         </button>
+
+        <div className="lead-form-footer">
+          <span><i className='bx bx-lock-alt'></i> 100% Secure</span>
+          <span><i className='bx bx-check-shield'></i> No Spam</span>
+          <span><i className='bx bx-time'></i> Respond in 2 hrs</span>
+        </div>
       </form>
     </section>
   );
