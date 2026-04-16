@@ -33,6 +33,34 @@ function HeroBanner() {
         <div className="particle"></div>
       </div>
 
+      <div className="hero-circle-layer" aria-hidden="true">
+        <span className="hero-circle hero-circle--one"></span>
+        <span className="hero-circle hero-circle--two"></span>
+        <span className="hero-circle hero-circle--three"></span>
+      </div>
+
+      <div className="hero-dot-icons" aria-hidden="true">
+        <span className="hero-dot-icon hero-dot-icon--one"><i className='bx bx-dots-horizontal-rounded'></i></span>
+      </div>
+
+      <div className="hero-rocket" aria-hidden="true">
+        <i className='bx bxs-rocket'></i>
+      </div>
+
+      <div className="hero-stars" aria-hidden="true">
+        <span className="hero-star hero-star--one"><i className='bx bxs-star'></i></span>
+        <span className="hero-star hero-star--two"><i className='bx bxs-star'></i></span>
+        <span className="hero-star hero-star--three"><i className='bx bxs-star'></i></span>
+      </div>
+
+      <div className="hero-ai-icons" aria-hidden="true">
+        <span className="hero-ai-icon hero-ai-icon--one"><i className='bx bx-brain'></i></span>
+        <span className="hero-ai-icon hero-ai-icon--two"><i className='bx bx-chip'></i></span>
+        <span className="hero-ai-icon hero-ai-icon--three"><i className='bx bx-bot'></i></span>
+        <span className="hero-ai-icon hero-ai-icon--four"><i className='bx bx-line-chart'></i></span>
+        <span className="hero-ai-icon hero-ai-icon--five"><i className='bx bx-cog'></i></span>
+      </div>
+
       {/* Background Slider */}
       <div className="hero-slider">
         {sliderImages.map((image, index) => (
